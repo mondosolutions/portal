@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8" />
-        <title>Vertical Layout | Xoric - Responsive Bootstrap 4 Admin Dashboard</title>
+        <title>Dark Sidebar | Xoric - Responsive Bootstrap 4 Admin Dashboard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesdesign" name="author" />
@@ -25,7 +25,7 @@
 
     </head>
 
-    <body data-topbar="colored">
+    <body data-sidebar="dark">
 
         <!-- Begin page -->
         <div id="layout-wrapper">
@@ -336,10 +336,12 @@
                                     <span>Layouts</span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="layouts-vertical.html">Vertical</a></li>
-                                    <li><a href="layouts-topbar-light.html">Light Topbar</a></li>
-                                    <li><a href="layouts-topbar-dark.html">Dark Topbar</a></li>
-                                    <li><a href="layouts-full-width.html">Full width</a></li>
+                                    <li><a href="layouts-horizontal.html">Horizontal</a></li>
+                                    <li><a href="layouts-dark-sidebar.html">Dark Sidebar</a></li>
+                                    <li><a href="layouts-sidebar-sm.html">Small Sidebar</a></li>
+                                    <li><a href="layouts-icon-sidebar.html">Icon Sidebar</a></li>
+                                    <li><a href="layouts-colored-sidebar.html">Colored Sidebar</a></li>
+                                    <li><a href="layouts-boxed.html">Boxed Layout</a></li>
                                 </ul>
                             </li>
 
@@ -373,16 +375,16 @@
             <div class="main-content">
 
                 <div class="page-content">
-
+                    
                     <!-- Page-Title -->
                     <div class="page-title-box">
                         <div class="container-fluid">
                             <div class="row align-items-center">
                                 <div class="col-md-8">
-                                    <h4 class="page-title mb-1">Vertical</h4>
+                                    <h4 class="page-title mb-1">Dark Sidebar</h4>
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="javascript: void(0);">Layouts</a></li>
-                                        <li class="breadcrumb-item active">Vertical</li>
+                                        <li class="breadcrumb-item active">Dark Sidebar</li>
                                     </ol>
                                 </div>
                                 <div class="col-md-4">
@@ -413,20 +415,22 @@
                                 <div class="col-xl-4">
                                     <div class="card">
                                         <div class="card-body">
-                                           <div class="row">
+                                        <div class="row">
                                                 <div class="col-6">
                                                     <h5>Welcome Back !</h5>
                                                     <p class="text-muted">Xoric Dashboard</p>
-    
+
                                                     <div class="mt-4">
                                                         <a href="#" class="btn btn-primary btn-sm">View more <i class="mdi mdi-arrow-right ml-1"></i></a>
                                                     </div>
                                                 </div>
-    
+
                                                 <div class="col-5 ml-auto">
-                                                    <img src="assets/images/widget-img.png" alt="" class="img-fluid">
+                                                    <div>
+                                                        <img src="assets/images/widget-img.png" alt="" class="img-fluid">
+                                                    </div>
                                                 </div>
-                                           </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -439,7 +443,7 @@
                                                 </div>
                                                 <div dir="ltr" class="ml-2">
                                                     <input data-plugin="knob" data-width="56" data-height="56" data-linecap=round data-displayInput=false
-                                                    data-fgColor="#3051d3" value="56" data-skin="tron" data-angleOffset="56"
+                                                    data-fgColor="#f15959" value="56" data-skin="tron" data-angleOffset="56"
                                                     data-readOnly=true data-thickness=".17" />
                                                 </div>
                                             </div>
@@ -449,7 +453,7 @@
                                                     <p class="text-muted">Sale status</p>
                                                     <h5 class="mb-0"> + 12 % <span class="font-size-14 text-muted ml-1">From previous period</span></h5>
                                                 </div>
-    
+
                                                 <div class="align-self-end ml-2">
                                                     <a href="#" class="btn btn-primary btn-sm">View more</a>
                                                 </div>
@@ -477,7 +481,7 @@
         
                             </div>
                             <!-- end row -->
-    
+
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="card">
@@ -538,7 +542,7 @@
                                         <div class="card-body">
                                             <h5 class="header-title mb-4">Social Source</h5>
                                             <div id="radial-chart" class="apex-charts"></div>
-    
+
                                             <div class="text-center mt-3">
                                                 <div class="row">
                                                     <div class="col-6">
@@ -562,14 +566,14 @@
                                     <div class="card">
                                         <div class="card-body">
                                             <h5 class="header-title">Recent Activity</h5>
-    
+
                                             <div id="activity-chart" class="apex-charts"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- end row -->
-    
+
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="card">
@@ -741,9 +745,9 @@
                                     <div class="card">
                                         <div class="card-body">
                                             <h5 class="header-title mb-4">Revenue by Location</h5>
-    
+
                                             <div id="usa-map"  style="height: 150px" class="mb-5"></div>
-    
+
                                             <div class="table-responsive">
                                                 <table class="table table-centered">
                                                     <tbody>
@@ -753,7 +757,7 @@
                                                             <td>
                                                                 <div dir="ltr" class="ml-2">
                                                                     <input data-plugin="knob" data-width="36" data-height="36" data-linecap=round data-displayInput=false
-                                                                    data-fgColor="#3051d3" value="56" data-skin="tron" data-angleOffset="36"
+                                                                    data-fgColor="#f15959" value="56" data-skin="tron" data-angleOffset="36"
                                                                     data-readOnly=true data-thickness=".2" />
                                                                 </div>
                                                             </td>
@@ -764,14 +768,14 @@
                                                             <td>
                                                                 <div dir="ltr" class="ml-2">
                                                                     <input data-plugin="knob" data-width="36" data-height="36" data-linecap=round data-displayInput=false
-                                                                    data-fgColor="#3051d3" value="42" data-skin="tron" data-angleOffset="36"
+                                                                    data-fgColor="#f15959" value="42" data-skin="tron" data-angleOffset="36"
                                                                     data-readOnly=true data-thickness=".2" />
                                                                 </div>
                                                             </td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
-    
+
                                                 <div class="text-center">
                                                     <a href="#" class="btn btn-primary btn-sm">View more <i class="mdi mdi-arrow-right ml-1"></i></a>
                                                 </div>
@@ -781,9 +785,9 @@
                                 </div>
                             </div>
                             <!-- end row -->
-                        </div>
-                        <!-- end container-fluid -->
-                    </div> 
+
+                        </div> <!-- container-fluid -->
+                    </div>
                     <!-- end page-content-wrapper -->
                 </div>
                 <!-- End Page-content -->
@@ -1146,7 +1150,6 @@
         <script src="assets/libs/jqvmap/maps/jquery.vmap.usa.js"></script>
 
         <script src="assets/js/pages/dashboard.init.js"></script>
-
 
         <script src="assets/js/app.js"></script>
 
